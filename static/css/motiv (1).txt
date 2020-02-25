@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    int books,lib,days;
+    cin>>books>>lib>>days;
+    int BOOKS[books],LIBS[lib][3];
+    for (int i = 0; i < books; ++i) {
+        cin>>BOOKS[i];
+    }
+    vector<int> books_libs;
+    for (int j = 0; j <lib ; ++j) {
+        for (int i = 0; i <3 ; ++i) {
+            cin>>LIBS[j][i];
+
+        }
+        for (int k = 0; k <LIBS[j][0]; ++k) {
+            int a;
+            cin>>a;
+            books_libs.push_back(a);
+        }
+    }
+
+}
+
+

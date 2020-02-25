@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 20:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: EtnaTravel/settings.py:143
+msgid "Azerbaijan"
+msgstr ""
+
+#: EtnaTravel/settings.py:144
+msgid "Russian"
+msgstr ""
+
+#: EtnaTravel/settings.py:145
+msgid "English"
+msgstr ""
+
+#: templates/about.html:18 templates/about.html:50 templates/header.html:60
+msgid "Haqqımızda"
+msgstr "О нас"
+
+#: templates/contact.html:21 templates/header.html:63
+msgid "Əlaqə"
+msgstr "Kонтакт"
+
+#: templates/contact.html:38 templates/footer.html:82
+msgid "Əlaqə Məlumatları"
+msgstr "Контактная информация"
+
+#: templates/footer.html:30 templates/index.html:41
+msgid "Tərəfdaşlarımız"
+msgstr "Наши партнёры"
+
+#: templates/footer.html:57 templates/header.html:47 templates/services.html:50
+msgid "Xidmətlərimiz"
+msgstr "Наши услуги "
+
+#: templates/footer.html:61
+msgid "Biletlərin yazılması"
+msgstr "Бронирование авиабилетов"
+
+#: templates/footer.html:65
+msgid "Səyahətləri planlaşdırılmasına yardım"
+msgstr "Помощь в планировании поездок"
+
+#: templates/footer.html:69
+msgid "Avtomobillərin icarəsi"
+msgstr "Аренда автомобилей"
+
+#: templates/footer.html:73
+msgid "Viza üçün sənədlərin rəsmilləşdirilməsinə yardım"
+msgstr "Визовая поддержка"
+
+#: templates/header.html:42
+msgid "Ana Səhifə"
+msgstr "Главная"
+
+#: templates/services.html:71
+msgid "Aviabilet"
+msgstr "Авиабилеты"
+
+#: templates/services.html:83
+msgid "Transfer"
+msgstr "Перевод"
+
+#: templates/services.html:98
+msgid "Rent A Car"
+msgstr "Аренда автомобилей "
+
+#: templates/services.html:108
+msgid "Visa Dəstəyi"
+msgstr "Визовая поддержка "
+
+#: templates/services.html:126
+msgid "VİP Xidmət"
+msgstr "VIP услуги"
+
+#: templates/services.html:138
+msgid "Kruiz"
+msgstr "Круизы"
+
+#: templates/services.html:150
+msgid "Müalicə və SPA"
+msgstr "Лечение и спа"
+
+#: templates/services.html:162
+msgid "Sığorta"
+msgstr "Страховка"
+
+#, fuzzy
+#~| msgid "Tərəfdaşlarımız"
+#~ msgid "Tərəfdaşlar"
+#~ msgstr "партнеры"

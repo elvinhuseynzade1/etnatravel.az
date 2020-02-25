@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+	<aside id="colorlib-hero">
+			<div class="flexslider">
+			
+				<ul class="slides">
+				{% for img in  images %}
+				
+					<li style="background-image: url({{img.img.url}})">
+					<div class="overlay"></div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+								<div class="slider-text-inner text-center">	
+			 					</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+				{% endfor %}
+			
+			      	
+			  	</ul>
+		  	</div>
+		</aside>
+
+
+
+
+
+
+
+	<div class="colorlib-tour colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+			
+						<h2>{% trans "Tərəfdaşlarımız" %}</h2>
+					</div>
+				</div>
+			</div>
+			<div class="tour-wrap">
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/azal.png' %});">
+					</div>
+					<span class="desc">
+						<h2>AZAL</h2>
+					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img"  style="background-image: url({% static 'images/turkish.png' ; %}) ;">
+					</div>
+					<span class="desc">
+<h2>Turkish Airlines</h2>
+					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/lufthansa.jpg' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Lufthansa</h2>					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/qatar.jpg' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Qatar Airways</h2>					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/austrian.png' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Austrian Airlines</h2>					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/astana.png' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Air Astana</h2>					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/british.jpg' %});">
+					</div>
+					<span class="desc">
+
+						<h2>British Airways </h2>					</span>
+				</a>
+				<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/france.jpg' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Air France</h2>					</span>
+				</a>
+
+
+
+
+					<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/aero.jpg' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Aeroflot</h2>					</span>
+				</a>
+
+
+
+
+					<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/uia.png' %});">
+					</div>
+					<span class="desc">
+
+						<h2>UIA ukrain airlines</h2>					</span>
+				</a>
+
+
+					<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/emirates.png' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Emirates</h2>					</span>
+				</a>
+
+
+					<a  class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url({% static 'images/bela.png' %});">
+					</div>
+					<span class="desc">
+
+						<h2>Belavia</h2>					</span>
+				</a>
+			</div>
+		</div>
+
+
+
+{% endblock content %}
+

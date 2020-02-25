@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 20:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: EtnaTravel/settings.py:143
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: EtnaTravel/settings.py:144
+msgid "Russian"
+msgstr "Russian"
+
+#: EtnaTravel/settings.py:145
+msgid "English"
+msgstr "English"
+
+#: templates/about.html:18 templates/about.html:50 templates/header.html:60
+msgid "Haqqımızda"
+msgstr "About"
+
+#: templates/contact.html:21 templates/header.html:63
+msgid "Əlaqə"
+msgstr "Contact"
+
+#: templates/contact.html:38 templates/footer.html:82
+msgid "Əlaqə Məlumatları"
+msgstr "Contact Information"
+
+#: templates/footer.html:30 templates/index.html:41
+msgid "Tərəfdaşlarımız"
+msgstr "Our partners"
+
+#: templates/footer.html:57 templates/header.html:47 templates/services.html:50
+msgid "Xidmətlərimiz"
+msgstr "Services"
+
+#: templates/footer.html:61
+msgid "Biletlərin yazılması"
+msgstr "Ticketing"
+
+#: templates/footer.html:65
+msgid "Səyahətləri planlaşdırılmasına yardım"
+msgstr "Assistance in travel planning"
+
+#: templates/footer.html:69
+msgid "Avtomobillərin icarəsi"
+msgstr "Rent a Car"
+
+#: templates/footer.html:73
+msgid "Viza üçün sənədlərin rəsmilləşdirilməsinə yardım"
+msgstr "Assistance in legalizing visa documents"
+
+#: templates/header.html:42
+msgid "Ana Səhifə"
+msgstr "Home Page"
+
+#: templates/services.html:71
+msgid "Aviabilet"
+msgstr "Airfare"
+
+#: templates/services.html:83
+msgid "Transfer"
+msgstr "Transfer"
+
+#: templates/services.html:98
+msgid "Rent A Car"
+msgstr "Rent A Car"
+
+#: templates/services.html:108
+msgid "Visa Dəstəyi"
+msgstr "Visa Support"
+
+#: templates/services.html:126
+msgid "VİP Xidmət"
+msgstr "VIP Service"
+
+#: templates/services.html:138
+msgid "Kruiz"
+msgstr "Cruise"
+
+#: templates/services.html:150
+msgid "Müalicə və SPA"
+msgstr "Treatment and SPA"
+
+#: templates/services.html:162
+msgid "Sığorta"
+msgstr "Insurance"
+
+#, fuzzy
+#~| msgid ""
+#~| "“Etna Travel” MMC şirkəti 2015-ci ildən fəaliyyət göstərir, şirkət "
+#~| "turizm sahəsində fəaliyyət göstərməklə yüksək səviyyəli xidmət təklif "
+#~| "edir.Fəaliyyət dövrü ərzində şirkətimiz bizə biletləri rəsmilləşdirmək "
+#~| "və bütün aviaşirkətlərlə birbaşa müqavilələr bağlamaq imkanı verən İATA "
+#~| "(İnternational Air Transport Association) ilə müqavilə bağlamışdır."
+#~ msgid ""
+#~ "Etna Travel MMC şirkəti 2015-ci ildən fəaliyyət göstərir, şirkət turizm "
+#~ "sahəsində fəaliyyət göstərməklə yüksək səviyyəli xidmət təklif edir."
+#~ "Fəaliyyət dövrü ərzində şirkətimiz bizə biletləri rəsmilləşdirmək və "
+#~ "bütün aviaşirkətlərlə birbaşa müqavilələr bağlamaq imkanı verən İATA "
+#~ "(İnternational Air Transport Association) ilə müqavilə bağlamışdır.\" "
+#~ msgstr ""
+#~ "Etna Travel LLC operates since 2015, company tourismProvides a high level "
+#~ "of service by operating in the field.During the period of our company, "
+#~ "our company has been able to provide us with tickets and allIATA, which "
+#~ "allows to conclude direct contracts with airlinesHas concluded a contract "
+#~ "with (International Air Transport Association)."
+
+#, fuzzy
+#~| msgid "Tərəfdaşlarımız"
+#~ msgid "Tərəfdaşlar"
+#~ msgstr "Partners"

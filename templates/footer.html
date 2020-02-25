@@ -1,0 +1,93 @@
+{% load i18n %}
+	<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-4 colorlib-widget">
+						<h4>Etna Travel </h4>
+						<p>
+						{% get_current_language as LANGUAGE_CODE %}
+						{% if  LANGUAGE_CODE == 'az'%}
+						Etna Travel MMC şirkəti 2015-ci ildən fəaliyyət göstərir, şirkət turizm sahəsində fəaliyyət göstərməklə yüksək səviyyəli xidmət təklif edir.Fəaliyyət dövrü ərzində şirkətimiz bizə biletləri rəsmilləşdirmək və bütün aviaşirkətlərlə birbaşa müqavilələr bağlamaq imkanı verən İATA (İnternational Air Transport Association) ilə müqavilə bağlamışdır."
+
+						{% elif LANGUAGE_CODE == 'en' %}
+						Etna Travel LLC has been operating since 2015. The company offers a high level of tourism services. During the period of its operation, our company has contracted with IATA (International Air Transport Association), which allows us to renew tickets and sign direct contracts with all airlines. "
+						{% elif LANGUAGE_CODE == 'ru' %}
+						"Etna travel" OOO функционирует с 2015-го года и в сфере туризма предлагает высокий и качественный уровень туристических услуг.Во время нашей работы наша компания заключила договор с IATA (Международная ассоциация воздушного транспорта), что позволяет нам обновлять наши билеты и подписывать прямые контракты со всеми авиакомпаниями.
+						{% endif %}
+
+						 </p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a ><i class="icon-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/etnatravelbaku/"><i class="icon-facebook"></i></a></li>
+								<li><a ><i class="icon-linkedin"></i></a></li>
+								<li><a><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-3 colorlib-widget">
+						<h4>
+						{% trans "Tərəfdaşlarımız" %}
+						</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a >AZAL</a></li>
+								<li><a >Turkish Airlines</a></li>
+								<li><a >Qatar Airways</a></li>
+								<li><a >Lufthansa</a></li>
+								<li><a >Austrian Airlines</a></li>
+								<li><a >Air Astana</a></li>
+							</ul>
+						</p>
+					</div>
+					<!-- <div class="col-md-2 colorlib-widget">
+						<h4>Top Deals</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">Edina Hotel</a></li>
+								<li><a href="#">Quality Suites</a></li>
+								<li><a href="#">The Hotel Zephyr</a></li>
+								<li><a href="#">Da Vinci Villa</a></li>
+								<li><a href="#">Hotel Epikk</a></li>
+							</ul>
+						</p>
+					</div> -->
+					<div class="col-md-2">
+						<h4>
+						{% trans "Xidmətlərimiz" %}
+						</h4>
+						<ul class="colorlib-footer-links">
+							<li>
+						{% trans "Biletlərin yazılması" %}
+							
+							</li>
+							<li>
+						{% trans "Səyahətləri planlaşdırılmasına yardım" %}
+							
+							</li>
+							<li>
+						{% trans "Avtomobillərin icarəsi" %}
+							
+							</li>
+							<li>
+						{% trans "Viza üçün sənədlərin rəsmilləşdirilməsinə yardım" %}
+							
+							</li>
+							
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-md-push-1">
+						<h4>
+						{% trans "Əlaqə Məlumatları" %}
+						</h4>
+						<ul class="colorlib-footer-links">
+							<li>Ceyhun Hacıbəyli küç 24, <br> Bakı, Azərbaycan</li>
+							<li><a href="tel:+944124410509">+ 944 (12) 441 05 09</a></li>
+							<li><a href="mailto:reservations@etnatravel.az">reservations@etnatravel.az</a></li>
+							<li><a href="/">etnatravel.az</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>

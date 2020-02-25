@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({{img.img.url}});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<!-- <h2>by colorlib.com</h2> -->
+				   					<h1>
+									   {% trans "Haqqımızda" %}
+									   </h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-about" style='margin-left:10px;'>
+			<div class="container">
+				<div class="row">
+					<div class="about-flex">
+						<br>
+						<!-- <div class="col-one-forth aside-stretch animate-box"> -->
+							<!-- <div class="row"> -->
+								<!-- <div class="col-md-12 about">
+									<h2>About</h2>
+
+									 <ul>
+										<li><a href="#">History</a></li>
+										<li><a href="#">Staff</a></li>
+										<li><a href="#">Connect with us</a></li>
+										<li><a href="#">Faqs</a></li>
+										<li><a href="#">Career</a></li>
+									</ul> -->
+								<!-- </div>  -->
+							<!-- </div> -->
+						</div>
+						<div class="col-three-forth animate-box">
+							<h2>									   {% trans "Haqqımızda" %}
+</h2>
+							<div class="row">
+								<div class="col-md-12">
+
+	<p>
+		 {{hb.header}}
+	</p>								
+<ul>
+{% for dt  in data  %}
+<li>{{dt.sadalanan_melumatlar}}</li>
+
+{% endfor %}
+
+
+
+</ul>
+<p>
+		 {{hs.footer}}
+</p>
+									<!-- <div class="row row-pb-sm">
+										<div class="col-md-6">
+											<img class="img-responsive" src="images/room-5.jpg" alt="">
+										</div>
+										<div class="col-md-6"> -->
+											
+										</div>
+									</div>
+
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+{% endblock content %}

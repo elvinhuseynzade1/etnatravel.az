@@ -1,0 +1,92 @@
+{% load static %}
+{% load i18n %}
+
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container-fluid">
+					<div class="row">
+<form style='float:right;position:absolute;top:27%;right:0%;z-index:2;' action="{% url 'set_language' %}" method="post">
+    {% csrf_token %}
+
+    <input name="next" type="hidden" value="{{ redirect_to }}" />
+	  <div class="options">
+
+    <select onchange="myFunction()" class="select" name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% for lang in LANGUAGES %}
+            <option id='mySelect'  value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected"{% endif %}>
+				{% if lang.0 == 'en' %}
+					<span>en</span>
+				{% elif lang.0 == 'ru' %}
+					<span>ru</span>
+				{% elif lang.0 == 'az' %}
+					<span>az</span>
+				{% endif %}
+
+            </option>
+        {% endfor %}
+    </select>
+	  </div>
+
+    <input type="submit"  id='go'  class='btn-danger' style='display:none; border-radius:50%' value="Go" />
+</form>
+				
+
+						<div class="col-xs-2">
+							
+							<!-- <div id="colorlib-logo"><a href="{% url 'etna-home' %}">Etna Travel</a></div> -->
+							<div class='colorlib-logo mb-4' style='margin-bottom:50px'>	 <a 
+					 href="{% url 'etna-home' %}"><img src="{% static 'images/logo_last.png'  %}" alt="logo"  width="240"></a></div> 
+
+						</div>
+						
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="{% if request.resolver_match.url_name == 'etna-home' %}active{% endif %} "><a href="{% url 'etna-home' %}">
+							{% trans "Ana Səhifə" %}
+								
+								</a></li>
+								<li class="has-dropdown">
+									<li class="{% if request.resolver_match.url_name == 'etna-services' %}active{% endif %} "><a href="{% url 'etna-services' %}">
+							{% trans "Xidmətlərimiz" %}
+									
+									</a></li>
+									<!-- <ul class="dropdown">
+										<li><a href="#">Destination</a></li>
+										<li><a href="#">Cruises</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Booking</a></li>
+									</ul> -->
+								</li>
+								<!-- <li><a href="hotels.html">Hotels</a></li>
+								<li><a href="services.html">Services</a></li> -->
+								<li class="{% if request.resolver_match.url_name == 'etna-about' %}active{% endif %} "><a href="{% url 'etna-about' %}">
+							{% trans "Haqqımızda" %}
+								
+								</a></li>
+								<li class="{% if request.resolver_match.url_name == 'etna-contact' %}active{% endif %} "><a href="{% url 'etna-contact' %}">{% trans "Əlaqə" %}</a></li>
+								<li>
+
+			<a ></a>
+								</li><li>
+			<a ></a>
+
+		
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+<script>
+function myFunction(e){
+  var lang = document.getElementById("mySelect").value;
+console.log("s")
+$("#go").click()
+}
+</script>
+		
+	
